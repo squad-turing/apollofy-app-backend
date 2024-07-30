@@ -8,7 +8,8 @@
     "build": "rimraf ./dist && tsc",
     "devmac": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "devwin": "nodemon --watch src/**/*.ts --exec ts-node src/index.ts",
-    "mg": "npx prisma generate && npx prisma migrate dev"
+    "mg": "npx prisma generate && npx prisma migrate dev",
+    "clean": "rimraf dist"
   },
   "keywords": [],
   "author": "",
